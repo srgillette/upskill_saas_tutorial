@@ -12,3 +12,4 @@ ActionMailer::Base.smtp_settings = {
     :domain => 'peaceful-plains-94752.herokuapp.com',
     :authentication => :plain,
 }
+ActionMailer::Base.delivery_method = :smtp
